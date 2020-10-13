@@ -3,8 +3,8 @@
   "author": "Mozilla",
   "manifest_version": 2,
   "name": "Ion Core",
-  "version": "2.0.0",
-  "homepage_url": "https://github.com/mozilla-extensions/pioneer-v2-core-example",
+  "version": "2.1",
+  "homepage_url": "https://github.com/mozilla-ion/ion-core-addon",
 
   "applications": {
     "gecko": {
