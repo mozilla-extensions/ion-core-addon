@@ -17,8 +17,8 @@ tasks:
               branch: taskgraph
               revision: 7dde9ce7740068d7b73218976343a28fc99be847
           template:
-              repo: https://github.com/mozilla-extensions/xpi-template
-              branch: master
+              repo: https://github.com/Dexterp37/xpi-template
+              branch: dontsign
           trustDomain: xpi
       in:
           $if: 'tasks_for in ["github-pull-request", "github-push", "action", "cron"]'
