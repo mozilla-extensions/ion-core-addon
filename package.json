@@ -1,6 +1,6 @@
 {
   "name": "ion_core",
-  "version": "2.2.0",
+  "version": "0.6.0",
   "scripts": {
     "build": "rollup -c && rollup -c rollup.config.addon.js --config-study-list-url=/public/locally-available-studies.json && web-ext build --overwrite-dest && mv web-ext-artifacts/*.zip web-ext-artifacts/ion_core.xpi",
     "dev": "rollup -c -w",
@@ -13,8 +13,8 @@
     "lint-js": "eslint . .storybook",
     "lint": "npm run build && npm-run-all lint-*",
     "lint-css": "stylelint 'public/*.css' '.storybook/*.css' 'src/**/*.svelte' 'stories/**/*.svelte'",
-    "storybook": "start-storybook -p 6006 -s public/",
-    "build-storybook": "build-storybook -s public/",
+    "storybook": "start-storybook -p 6006 -s ./",
+    "build-storybook": "build-storybook -s ./",
     "test": "npm run test-addon && npm run test-support-library"
   },
   "devDependencies": {
